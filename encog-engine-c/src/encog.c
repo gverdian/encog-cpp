@@ -73,9 +73,9 @@ void EncogCreateFlatNetwork(short layerCount, FlatLayer *layers, FlatNetwork **r
 			nextLayer = &layers[i-1];
 			
 		flat->biasActivation[index] = layer->biasActivation;
-		flat->layerCounts[index] = layer->totalCount;
+		//flat->layerCounts[index] = layer->totalCount;
 		flat->layerFeedCounts[index] = layer->count;
-		flat->layerContextCount[index] = layer->contectCount;
+		//flat->layerContextCount[index] = layer->contectCount;
 		flat->activationType[index] = layer->activation;
 		flat->paramIndex[index]  = currentParamIndex;
 /*		currentParamIndex = ActivationFunctions.copyParams(layer.getParams(),this.params,currentParamIndex);
