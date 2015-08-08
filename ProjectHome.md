@@ -1,0 +1,1 @@
+A machine learning framework for C/C++/ObjectiveC.  Based on the Encog Engine framework.    From the same team as Encog.
